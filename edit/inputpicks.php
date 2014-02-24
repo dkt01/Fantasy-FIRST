@@ -202,8 +202,8 @@
 
 			echo "</form></tfoot></table>";
 			
-			echo "<table style='width: 95%; height: auto' align='center'><tr class='makeorange' ><th colspan='4'> Available Teams </th></tr>";
-			echo "<tr  class='makeorange'  align='center'><th>Archimedes</th><th>Curie</th><th>Galileo</th><th>Newton</th></tr><tr>";
+			echo "<table style='width: 95%; height: auto' align='center'><thead><tr class='makeorange' ><th colspan='4'> Available Teams </th></tr>";
+			echo "<tr  class='makeorange'  align='center'><th>Archimedes</th><th>Curie</th><th>Galileo</th><th>Newton</th></tr></thead><tbody><tr>";
 
 			$ateams = simplexml_load_file($ateamsf);
 			$cteams = simplexml_load_file($cteamsf);
@@ -298,7 +298,7 @@
 			}
 			echo "</ul></td>";
 			
-			echo "</table>";
+			echo "</tbody></table>";
 		?>
 </body>
 </html>

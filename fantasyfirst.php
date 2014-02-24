@@ -5,17 +5,17 @@
 <!-- <link rel="stylesheet" href="./util/pureskin.css"> -->
 </head>
 
-<body class="BackgroundGradient">
+<body>
 
 <h1 align="center"> Fantasy <i>FIRST</i> </h1>
 
 <!--<iframe style="width: 100%;" height='500' src='./util/pickstable.php' frameborder = '0'></iframe>-->
 
 <div align = 'center'> <a href="./edit/inputpicks.php" align="center">Update Picks</a></div>
-	<table id="rounded-corner" align="center" style="width: 100%;">
+	<table align="center" style="width: 100%;">
         <thead>
         <tr>
-            <th colspan="33" class="rounded-top" >Our Picks </th>
+            <th colspan="33">Our Picks </th>
         </tr>
         <tr>
         	<th rowspan="2" > Name</th>
@@ -104,7 +104,7 @@
 		</tbody>
 		<tfoot>
         <tr>
-            <td colspan="33" align="center" class="rounded-foot"> Updated <?php echo date("n/j/y H:i:s O") ?> GMT</td>
+            <td colspan="33" align="center"> Updated <?php echo date("n/j/y H:i:s O") ?> GMT</td>
         </tr>
         </tfoot>
     </table>

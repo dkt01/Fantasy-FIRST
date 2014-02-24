@@ -2,4 +2,46 @@ body
 {
 	background-color:black;
 	color:lightgrey;
+	font-family:Arial, sans-serif;
+}
+
+table
+{
+	background-color:lightgrey;
+	color:black;
+	border:2pt solid white;
+	border-radius:5px;
+}
+
+tr
+{
+	height:1em;
+}
+
+tbody>tr:nth-child(even)
+{
+	background-color:lightgrey;
+	color:black;
+}
+
+tbody>tr:nth-child(odd)
+{
+	background-color:grey;
+	color:black;
+}
+
+a
+{
+	color:lightgrey;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color:grey;
+}
+
+a:hover
+{
+	color:white;
 }
