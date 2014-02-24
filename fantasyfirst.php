@@ -1,6 +1,10 @@
+<!DOCTYPE html>
+<html>
 <head>
 <title> Fantasy FIRST </title>
 <link rel="stylesheet" type="text/css" href="./util/style.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="./util/ffmain.js"></script>
 <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css"> -->
 <!-- <link rel="stylesheet" href="./util/pureskin.css"> -->
 </head>
@@ -109,14 +113,6 @@
         </tfoot>
     </table>
 
-<script>
-function()
-{
-	// setup ul.tabs to work as tabs for each div directly under div.panes
-    $("ul.tabs").tabs("div.panes > div");
-}
-</script>
-
 <br><br>
 <div id='tabs'>
 <ul class="tabs">
@@ -140,3 +136,4 @@ function()
 </div>
 
 </body>
+</html>
