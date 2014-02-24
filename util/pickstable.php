@@ -1,4 +1,4 @@
-<div align = 'center'> <a href="/pages/fantasyfirst/edit/inputpicks.php" align="center">Update Picks</a></div>
+<div align = 'center'> <a href="../edit/inputpicks.php" align="center">Update Picks</a></div>
 	<table border='0' align="center" style="width: 100%; height: 90%; background-color:#000000;">
         <tr>
             <th colspan="33" style="background-color:#FFFFFF;">Our Picks </th>

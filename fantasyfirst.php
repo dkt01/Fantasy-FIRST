@@ -1,17 +1,17 @@
 <head>
 <title> Fantasy FIRST </title>
-<link rel="stylesheet" type="text/css" href="/pages/fantasyfirst/util/style.css">
+<link rel="stylesheet" type="text/css" href="./util/style.css">
 <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css"> -->
-<!-- <link rel="stylesheet" href="/pages/fantasyfirst/util/pureskin.css"> -->
+<!-- <link rel="stylesheet" href="./util/pureskin.css"> -->
 </head>
 
 <body class="BackgroundGradient">
 
 <h1 align="center"> Fantasy <i>FIRST</i> </h1>
 
-<!--<iframe style="width: 100%;" height='500' src='/pages/fantasyfirst/util/pickstable.php' frameborder = '0'></iframe>-->
+<!--<iframe style="width: 100%;" height='500' src='./util/pickstable.php' frameborder = '0'></iframe>-->
 
-<div align = 'center'> <a href="/pages/fantasyfirst/edit/inputpicks.php" align="center">Update Picks</a></div>
+<div align = 'center'> <a href="./edit/inputpicks.php" align="center">Update Picks</a></div>
 	<table id="rounded-corner" align="center" style="width: 100%;">
         <thead>
         <tr>
@@ -131,11 +131,11 @@ function()
 <!-- tab "panes" -->
 <div id="panes">
 <div class="main">
-	<div id="archimedes"><iframe style="width: 100%;" height="400" src="/pages/fantasyfirst/divisions/archimedes.php" scrolling="yes" frameborder="0"></iframe></div>
-	<div id = "curie"><iframe style="width: 100%;" height="400" src="/pages/fantasyfirst/divisions/curie.php" scrolling="yes" frameborder="0"></iframe></div>
-	<div id = "galileo"><iframe style="width: 100%;" height="400" src="/pages/fantasyfirst/divisions/galileo.php" scrolling="yes" frameborder="0"></iframe></div>
-	<div id = "newton"><iframe style="width: 100%;" height="400" src="/pages/fantasyfirst/divisions/newton.php" scrolling="yes" frameborder="0"></iframe></div>
-	<div id = "einstein"><iframe style="width: 100%;" height="400" src="/pages/fantasyfirst/divisions/einstein.php" scrolling="yes" frameborder="0"></iframe></div>
+	<div id="archimedes"><iframe style="width: 100%;" height="400" src="./divisions/archimedes.php" scrolling="yes" frameborder="0"></iframe></div>
+	<div id = "curie"><iframe style="width: 100%;" height="400" src="./divisions/curie.php" scrolling="yes" frameborder="0"></iframe></div>
+	<div id = "galileo"><iframe style="width: 100%;" height="400" src="./divisions/galileo.php" scrolling="yes" frameborder="0"></iframe></div>
+	<div id = "newton"><iframe style="width: 100%;" height="400" src="./divisions/newton.php" scrolling="yes" frameborder="0"></iframe></div>
+	<div id = "einstein"><iframe style="width: 100%;" height="400" src="./divisions/einstein.php" scrolling="yes" frameborder="0"></iframe></div>
 </div>
 </div>
 

@@ -15,13 +15,13 @@
 	if($_POST["pwd"] != $epassword)
 	{
 		//EVIL PERSON!!!
-		header("location: /pages/fantasyfirst/edit/inputpicks.php?fail=true");
+		header("location: ../edit/inputpicks.php?fail=true");
 		echo "BAD PASSWORD!";
 		$oldstuffs = "../ffpicksfail.xml";
 	}
 	else
 	{
-		header("location: /fantasyfirst");
+		header("location: /fantasyfirst.php");
 		echo "Updating... <br> You will be redirected...";
 		$oldstuffs = "../ffpicks.xml";
 	}

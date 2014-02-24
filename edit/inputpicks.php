@@ -1,7 +1,7 @@
 <html>
 <head>
 <title> Update Picks </title>
-<link rel="stylesheet" type="text/css" href="/pages/fantasyfirst/util/style.css">
+<link rel="stylesheet" type="text/css" href="../util/style.css">
 <style>
 #teams ul
 {
@@ -195,7 +195,7 @@
 				$p = $p + 1;
 			};
 			echo "</tbody><tfoot><tr colspan='35'  > Password: <input type='password' name = 'pwd'><input type = 'submit' value='Submit'>
-					<a href='/fantasyfirst'>Cancel  </a></tr>";
+					<a href='/fantasyfirst.php'>Cancel  </a></tr>";
 			echo "<tr colspan='35'  > <input type='radio'   name='chplayers' value='add'> Add 1 player";  
 			echo "<input type='radio' name='chplayers'   value='same' checked> Keep players";
 			echo "<input type='radio' name='chplayers'   value='subtract'> Remove 1 player";
